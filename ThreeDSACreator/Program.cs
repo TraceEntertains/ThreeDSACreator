@@ -1,4 +1,5 @@
 ﻿using ThreeDSACLib.FRD;
+using ThreeDSParserLib;
 
 namespace ThreeDSACreator
 {
@@ -6,8 +7,10 @@ namespace ThreeDSACreator
     {
         static void Main(string[] args)
         {
+            AccountDatParser accountDatParser = new("account.dat");
+            
             AccountDataV1 accountDataV1 = new();
-            File.WriteAllBytes("test.3dsac", accountDataV1.Serialize());
+            File.WriteAllBytes("test.3dsac", accountDataV1.Serialize(accountDatParser.Parse(), "https://nasc.pretendo.cc/ac/"));
         }
     }
 }

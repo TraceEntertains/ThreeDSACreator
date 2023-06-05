@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDSACreator", "ThreeDSA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDSACLib", "ThreeDSACLib\ThreeDSACLib.csproj", "{C15CB321-0894-4C44-AAAE-38D3ED0DFE04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDSParserLib", "ThreeDSParserLib\ThreeDSParserLib.csproj", "{58ABAE5A-9014-455F-B585-A63FDA21E95E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C15CB321-0894-4C44-AAAE-38D3ED0DFE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C15CB321-0894-4C44-AAAE-38D3ED0DFE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C15CB321-0894-4C44-AAAE-38D3ED0DFE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ABAE5A-9014-455F-B585-A63FDA21E95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ABAE5A-9014-455F-B585-A63FDA21E95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ABAE5A-9014-455F-B585-A63FDA21E95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ABAE5A-9014-455F-B585-A63FDA21E95E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

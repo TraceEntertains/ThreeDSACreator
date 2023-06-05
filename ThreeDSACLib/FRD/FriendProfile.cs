@@ -12,6 +12,7 @@ namespace ThreeDSACLib.FRD
         public byte country;
         public byte area;
         public byte language;
+        public byte platform;
         public byte[] padding = new byte[3];
 
         public byte[] Serialize()
@@ -23,6 +24,7 @@ namespace ThreeDSACLib.FRD
                 writer.Write(country);
                 writer.Write(area);
                 writer.Write(language);
+                writer.Write(platform);
                 writer.Write(padding);
 
                 return stream.ToArray();
